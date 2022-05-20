@@ -1,3 +1,4 @@
+#!/bin/sh
 wget https://raw.githubusercontent.com/idobarel/emoji-fatch/main/main.py
 mv main.py ef
 chmod +x ef
