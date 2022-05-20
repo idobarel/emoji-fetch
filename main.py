@@ -55,6 +55,9 @@ def main():
         exit(0)
     f = Fetcher()
     x = f.getEmojies(name)
+    if x == False:
+        print(colored("Found None...", 'red', attrs=['bold']))
+        exit(1)
     print(colored(f"Found {len(x)} Emojies!", "green", attrs=['bold']))
     for i in x:
         print(i)
