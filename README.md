@@ -7,7 +7,7 @@ just copy and paste this command to your terminal and it should be downloading t
 NOTE:
 you will need sudo, because the installer will move the file to the /usr/local/bin directory to make a global executeable.
 ```bash
-sudo sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo sh -c "$(wget -qO- https://raw.githubusercontent.com/idobarel/emoji-fatch/main/install.sh)"
 ```
 
 
