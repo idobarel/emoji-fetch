@@ -7,5 +7,6 @@ mv main.py ef
 dos2unix ef
 chmod +x ef
 sudo mv ef /usr/local/bin
+rm requirements.txt
 clear
 echo "Done! Use ef"
