@@ -21,7 +21,7 @@ class Fetcher():
         self.data = soup.find_all("td")
         self.trs = soup.find_all("tr")
 
-    def search(self, name: str) -> list[str]:
+    def search(self, name: str):
         data = []
         for td in self.data:
             if td.attrs['class'][0] == "name":
@@ -30,7 +30,7 @@ class Fetcher():
                     data.append(td)
         return data
 
-    def getEmojies(self, name: str) -> list[str]:
+    def getEmojies(self, name: str):
         l = []
         data = self.search(name)
         if len(data) == 0:
